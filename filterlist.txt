@@ -1,11 +1,12 @@
 [Adblock Plus 2.0]
-! Title: Justin's List
+! Title: Lengendary117's List
 ! Expires: 1 days (update frequency)
 ! Version: 1.0
 ! Last modified: 8 Jul 2019
 ! Homepage: https://
 ! Description: Custom List.
-!-------------------------------------------------------------------------------
+!--------------------------------------------------------------------------------------------------------------------
+!--------------------------------------------- [ Email Tracking Pixels ]---------------------------------------------
 ! Superhuman "read receipt" tracking pixel
 media.superhumanapp.com/images/_/*://r.superhuman.com/*.gif$image
 r.superhuman.com/*.gif$document
