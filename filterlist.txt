@@ -10,6 +10,7 @@
 ! Superhuman "read receipt" tracking pixel
 ||media.superhumanapp.com/images/_/*://r.superhuman.com/*.gif$image
 ||r.superhuman.com/*.gif$document
+
 ! hunter.io email tracking
 ! https://mailtracker.hunter.io/articles/how-does-email-tracking-work
 ||mltrk.io/pixel/*^$document
