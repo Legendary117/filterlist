@@ -138,8 +138,7 @@
 
 ! Google email marketing tracking pixel
 ||www.google.com/appserve/mkt/img/*.gif^$document
-||media.superhumanapp.com/images/_/*://
-www.google.com/appserve/mkt/img/*.gif^$image
+||media.superhumanapp.com/images/_/*://www.google.com/appserve/mkt/img/*.gif^$image
 
 ! Adobe audience manager (demdex)
 ! demdex.net is already blocked with Peter's list
