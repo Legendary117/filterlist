@@ -5,8 +5,66 @@
 ! Last modified: 8 Jul 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
-!--------------------------------------------------------------------------------------------------------------------
-!--------------------------------------------- [ Email Tracking Pixels ]---------------------------------------------
+!---------------------------------------------------------------------------------------------------------------------
+!---------------------------------------------- [ Keep the big 4 back ] ----------------------------------------------
+! Block Facebook except on Facebook.com
+* facebook.com * block
+* facebook.net * block
+* fbcdn.net * block
+facebook.com facebook.com * noop
+facebook.com facebook.net * noop
+facebook.com fbcdn.net * noop
+
+! Block Twitter except on Twitter.com
+* twitter.com * block
+* twimg.com * block
+twitter.com twitter.com * noop
+twitter.com twimg.com * noop
+twimg.com twimg.com * noop
+
+! Block Amazon except on Amazon.com
+* amazon.com * block
+* media-amazon.com * block
+* ssl-images-amazon.com * block
+* amazon-adsystem.com * block
+amazon.com amazon.com * noop
+amazon.com media-amazon.com * noop
+amazon.com ssl-images-amazon.com * noop
+amazon.com amazon-adsystem.com * noop
+
+! Block Microsoft sites except on MS sites
+* outlook.com * block
+outlook.com outlook.com * noop
+* bing.com * block
+* bing.net * block
+bing.com bing.com * noop
+bing.com bing.net * noop
+bing.net bing.net * noop
+bing.net bing.com * noop
+* microsoft.com * block
+microsoft.com microsoft.com * noop
+* live.com * block
+* office365.com * block
+live.com live.com * noop
+live.com microsoft.com * noop
+live.com bing.com * noop
+live.com office365.com * noop
+* office.com * block
+office.com office.com * noop 
+live.com office.com * noop
+
+!----------------------------------------------- [ Google Annoyances ] -----------------------------------------------
+
+! Google Annoyances
+! "Google Recommends using Chrome"
+google.com##div[aria-label="promo"]
+google.com##div[aria-label="Google recommends using Chrome"]
+! "You're signed out of YouTube"
+youtube.com##iron-dropdown
+! "Watch YouTube videos with Chrome"
+youtube.com###ticker-content
+
+!--------------------------------------------- [ Email Tracking Pixels ] ---------------------------------------------
 ! Superhuman "read receipt" tracking pixel
 ||media.superhumanapp.com/images/_/*://r.superhuman.com/*.gif$image
 ||r.superhuman.com/*.gif$document
@@ -159,3 +217,84 @@ https://*.od2.vtiger.com/shorturl.php*^$image
 
 ! Pete's list already blocks pstmrk.it
 ||media.superhumanapp.com/images/_/*://*.pstmrk.it/*^$image
+
+!------------------------------------------------- [ Misc Filters ] --------------------------------------------------
+
+! Block cryptomining & AddThis
+||coin-hive.com^
+*.addthis.com/*
+*sharebar.addthiscdn.com*
+
+! 6/4/2019 https://lifehacker.com
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(13)
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(14)
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(12) > .ad-mobile.ad-unit > .ad-mobile-inner > .proxima.ad-label > .proxima
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(11) > .ad-mobile.ad-unit > .ad-mobile-inner > .proxima.ad-label > .proxima
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(8) > .ad-mobile.ad-unit
+lifehacker.com###swappable-mobile-ad-container > .ad-mobile.ad-unit > .ad-mobile-inner > .proxima.ad-label
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(5) > .ad-mobile.ad-unit
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(6) > .ad-mobile.ad-unit > .ad-mobile-inner > .proxima.ad-label > .proxima
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(7)
+
+
+! Inoreader anti-adblock popup
+www.inoreader.com##DIV[class="inno_dialog_modal_overlay"]
+www.inoreader.com##DIV[class="inno_dialog inno_shadow_big open_sans inno_dialog_modal"]
+www.inoreader.com###consent_xmas2018
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(2)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(19)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(4)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(5)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(3)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(63)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(10)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(7)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(7)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(7)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(7)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(12)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(6)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(9)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(8)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(13)
+www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(21)
+www.inoreader.com###reader_pane > .ad_title_centered.ad_title
+www.inoreader.com###leaderboard_ad-5cf7350e968f2
+
+! 6/20/2019 https://jalopnik.com
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(1)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(2)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(3)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(4)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(5)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(6)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(7)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(8)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(9)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(10)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(11)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(12)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(13)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(14)
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(15)
+
+! 6/29/2019 https://www.theguardian.com
+www.theguardian.com##div.old-article-message-wrapper:nth-of-type(1) > .old-article-message
+
+* googletagservices.com * block
+* taboola.com * block
+* ecinity.com * block
+
+! Allows cram.com to work.
+@@$domain=cram.com
+
+! Prevent Reddit from tracking mouse movements
+reddit.com##script:inject(addEventListener-defuser.js, mousemove)
+
+! Block autoplay videos on Macworld/PCWorld (need to block Brightcove as well)
+www.macworld.com##DIV[class="video-wrapper small-player"]
+www.pcworld.com##DIV[class="video-wrapper small-player"]
+players.brightcove.net
+
+! Block Facebooks new ads 4/18/2019
+www.facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(0)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9))))
