@@ -225,58 +225,21 @@ https://*.od2.vtiger.com/shorturl.php*^$image
 *.addthis.com/*
 *sharebar.addthiscdn.com*
 
-! 6/4/2019 https://lifehacker.com
-lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(13)
-lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(14)
-lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(12) > .ad-mobile.ad-unit > .ad-mobile-inner > .proxima.ad-label > .proxima
-lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(11) > .ad-mobile.ad-unit > .ad-mobile-inner > .proxima.ad-label > .proxima
-lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(8) > .ad-mobile.ad-unit
-lifehacker.com###swappable-mobile-ad-container > .ad-mobile.ad-unit > .ad-mobile-inner > .proxima.ad-label
-lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(5) > .ad-mobile.ad-unit
-lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(6) > .ad-mobile.ad-unit > .ad-mobile-inner > .proxima.ad-label > .proxima
-lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(7)
-
-
 ! Inoreader anti-adblock popup
 www.inoreader.com##DIV[class="inno_dialog_modal_overlay"]
 www.inoreader.com##DIV[class="inno_dialog inno_shadow_big open_sans inno_dialog_modal"]
-www.inoreader.com###consent_xmas2018
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(2)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(19)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(4)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(5)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(3)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(63)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(10)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(7)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(7)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(7)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(7)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(12)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(6)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(9)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(8)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(13)
-www.inoreader.com##div.ad_title_centered.ad_title:nth-of-type(21)
+www.inoreader.com##div.ad_title_centered.ad_title
 www.inoreader.com###reader_pane > .ad_title_centered.ad_title
 www.inoreader.com###leaderboard_ad-5cf7350e968f2
 
-! 6/20/2019 https://jalopnik.com
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(1)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(2)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(3)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(4)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(5)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(6)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(7)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(8)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(9)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(10)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(11)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(12)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(13)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(14)
-jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic:nth-of-type(15)
+! 7/9/2019 https://lifehacker.com
+lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
+
+! 7/9/2019 https://jalopnik.com
+jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
+
+! 7/9/2019 https://gizmodo.com
+gizmodo.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
 
 ! 6/29/2019 https://www.theguardian.com
 www.theguardian.com##div.old-article-message-wrapper:nth-of-type(1) > .old-article-message
