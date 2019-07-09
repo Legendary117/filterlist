@@ -146,8 +146,7 @@ www.google.com/appserve/mkt/img/*.gif^$image
 ||media.superhumanapp.com/images/_/*://*.demdex.net/*^$image
 
 ! DoubleClick tracker (already blocked in uBlock origin, now block Superhuman version)
-||media.superhumanapp.com/images/_/
-^$image
+||media.superhumanapp.com/images/_/^$image
 
 ! Not sure what this tracker is, but saw it in the wild
 ||is-tracking-pixel-api-prod.appspot.com/api/*^$document
