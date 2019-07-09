@@ -218,6 +218,7 @@ https://*.od2.vtiger.com/shorturl.php*^$image
 ! Pete's list already blocks pstmrk.it
 ||media.superhumanapp.com/images/_/*://*.pstmrk.it/*^$image
 
+!---- Email Tracker filters from: https://medium.com/@chadloder/how-to-disable-superhumans-email-tracking-pixel-ba4f9ccdf731
 !------------------------------------------------- [ Misc Filters ] --------------------------------------------------
 
 ! Block cryptomining & AddThis
