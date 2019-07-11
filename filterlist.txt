@@ -59,6 +59,7 @@ live.com office.com * noop
 ! "Google Recommends using Chrome"
 google.com##div[aria-label="promo"]
 google.com##div[aria-label="Google recommends using Chrome"]
+##.gb_A gb_Ac
 ! "You're signed out of YouTube"
 youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
