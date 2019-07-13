@@ -1,8 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Version: 1.0
-! Last modified: 10 Jul 2019
+! Last modified: 12 Jul 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -64,6 +63,10 @@ google.com##div[aria-label="Google recommends using Chrome"]
 youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
 youtube.com###ticker-content
+
+!------------------------------------------------ [ Email Overlays ] -------------------------------------------------
+howtogeek.com##.email-overlay
+howtogeek.com##.overlay-inner
 
 !--------------------------------------------- [ Email Tracking Pixels ] ---------------------------------------------
 ! Superhuman "read receipt" tracking pixel
