@@ -64,7 +64,7 @@ youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
 youtube.com###ticker-content
 ! "Try the YouTube kids app"
-##ytd-popup-container.ytd-app.style-scope
+www.youtube.com##ytd-popup-container.ytd-app.style-scope
 
 !------------------------------------------------ [ Email Overlays ] -------------------------------------------------
 howtogeek.com##.email-overlay
