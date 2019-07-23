@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 21 Jul 2019
+! Last modified: 22 Jul 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -57,14 +57,16 @@ live.com office.com * noop
 ! "Google Recommends using Chrome"
 google.com##div[aria-label="promo"]
 google.com##div[aria-label="Google recommends using Chrome"]
-google.com##.gb_A gb_Ac
+google.com##.gb_A
+google.com##.gb_Ac
 google.com##.gb_Uf
 ! "You're signed out of YouTube"
 youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
 youtube.com###ticker-content
-! "Try the YouTube kids app"
-www.youtube.com##ytd-popup-container.ytd-app.style-scope
+! Try the YouTube Kids app
+youtube.com##.ytd-mealbar-promo-renderer
+spaces are multiple classes
 
 !------------------------------------------------ [ Email Overlays ] -------------------------------------------------
 howtogeek.com##.email-overlay
