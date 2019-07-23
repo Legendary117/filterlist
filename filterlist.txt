@@ -66,7 +66,6 @@ youtube.com##iron-dropdown
 youtube.com###ticker-content
 ! Try the YouTube Kids app
 youtube.com##.ytd-mealbar-promo-renderer
-spaces are multiple classes
 
 !------------------------------------------------ [ Email Overlays ] -------------------------------------------------
 howtogeek.com##.email-overlay
