@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 25 Jul 2019
+! Last modified: 26 Jul 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -55,10 +55,12 @@ live.com office.com * noop
 !----------------------------------------------- [ Google Annoyances ] -----------------------------------------------
 
 ! "Google Recommends using Chrome"
-mail.google.com##.gb_A
-mail.google.com##.gb_Ac
-mail.google.com##.gb_Uf
-mail.google.com##.gb_id
+encrypted.google.com##.gb_g
+encrypted.google.com##.gb_ga
+||google.com^##.gb_g
+||google.com^##.gb_ga
+||google.com^##.gb_B
+||google.com^##.gb_Tf
 ! "You're signed out of YouTube"
 youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
