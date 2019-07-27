@@ -61,6 +61,7 @@ encrypted.google.com##.gb_ga
 ||google.com^##.gb_ga
 ||google.com^##.gb_B
 ||google.com^##.gb_Tf
+##.gb_fa, .gb_g
 ! "You're signed out of YouTube"
 youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
