@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 10 Aug 2019
+! Last modified: 13 Aug 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -70,6 +70,8 @@ youtube.com##iron-dropdown
 youtube.com###ticker-content
 ! Try the YouTube Kids app
 youtube.com##.ytd-mealbar-promo-renderer
+! Remove the 'More Videos' bar when you pause youtube videos.
+youtube.com,youtube-nocookie.com##.ytp-expand-pause-overlay .ytp-pause-overlay
 
 !------------------------------------------------ [ Email Overlays ] -------------------------------------------------
 howtogeek.com##.email-overlay
