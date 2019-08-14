@@ -68,7 +68,7 @@ encrypted.google.com##.gb_ga
 youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
 youtube.com###ticker-content
-! Try the YouTube Kids app
+! "Try the YouTube Kids app"
 youtube.com##.ytd-mealbar-promo-renderer
 ! Remove the 'More Videos' bar when you pause youtube videos.
 youtube.com,youtube-nocookie.com##.ytp-expand-pause-overlay .ytp-pause-overlay
