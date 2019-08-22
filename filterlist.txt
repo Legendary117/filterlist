@@ -239,7 +239,7 @@ https://*.od2.vtiger.com/shorturl.php*^$image
 *.addthis.com/*
 *sharebar.addthiscdn.com*
 
-! Inoreader anti-adblock popup
+! Inoreader
 www.inoreader.com##DIV[class="inno_dialog_modal_overlay"]
 www.inoreader.com##DIV[class="inno_dialog inno_shadow_big open_sans inno_dialog_modal"]
 www.inoreader.com##div.ad_title_centered.ad_title
