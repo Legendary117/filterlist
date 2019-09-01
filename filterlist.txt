@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 21 Aug 2019
+! Last modified: 1 Sept 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -69,6 +69,7 @@ youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
 youtube.com###ticker-content
 ! "Try the YouTube Kids app"
+youtube.com##ytd-mealbar-promo-renderer
 youtube.com##.ytd-mealbar-promo-renderer
 ! Remove the 'More Videos' bar when you pause youtube videos.
 youtube.com,youtube-nocookie.com##.ytp-expand-pause-overlay .ytp-pause-overlay
@@ -272,6 +273,12 @@ reddit.com##script:inject(addEventListener-defuser.js, mousemove)
 www.macworld.com##DIV[class="video-wrapper small-player"]
 www.pcworld.com##DIV[class="video-wrapper small-player"]
 players.brightcove.net
+
+! https://www.engadget.com
+www.engadget.com###right-ads-rail
+
+! https://www.wired.com
+www.wired.com##.persistent-bottom
 
 ! Facebook Ads
 www.facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(0)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9))))
