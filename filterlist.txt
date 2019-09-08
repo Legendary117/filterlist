@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 1 Sept 2019
+! Last modified: 7 Sept 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -55,6 +55,8 @@ live.com office.com * noop
 !----------------------------------------------- [ Google Annoyances ] -----------------------------------------------
 
 ! "Google Recommends using Chrome"
+mail.google.com##.gb_Ec.gb_B
+mail.google.com##.gb_Hc.gb_B
 mail.google.com##.gb_zd
 mail.google.com##.gb_Dc.gb_B
 encrypted.google.com##.gb_g
@@ -73,6 +75,8 @@ youtube.com##ytd-mealbar-promo-renderer
 youtube.com##.ytd-mealbar-promo-renderer
 ! Remove the 'More Videos' bar when you pause youtube videos.
 youtube.com,youtube-nocookie.com##.ytp-expand-pause-overlay .ytp-pause-overlay
+! "Try a fast secure browser with updates built in."
+mail.google.com##.gb_Ic.gb_B
 
 !------------------------------------------------ [ Email Overlays ] -------------------------------------------------
 howtogeek.com##.email-overlay
