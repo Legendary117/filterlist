@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 27 Oct 2019
+! Last modified: 30 Oct 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -287,9 +287,23 @@ www.wired.com##.persistent-bottom
 ! 10/26/2019 https://outlook.live.com
 outlook.live.com##._1TpU2KF6f_EeQiytBaYj8I > ._3_hHr3kfEhbNYRFM5YJxH9
 
-! 10/24/2019 https://open.spotify.com
+! Spotify upgrade banner and junk
 ||open.scdn.co/static/images/fta/burst.jpg$image
 open.spotify.com##._662231c6da359a501ff85e9f34adfcda-scss
 open.spotify.com##.a05bb0f3078253e640145067dca9cae3-scss
 open.spotify.com##._28f55dbe6c35681a96ab5d1b11d0b0e1-scss
 open.spotify.com##.btn-black.btn--no-margin.btn
+
+! Lifehacker leftover junk
+lifehacker.com##.js-evernote-checked.kDjDdf.bxm4mm-8
+lifehacker.com##.js-evernote-checked.fPASGg.bxm4mm-9
+
+! 9/12/2019 https://twocents.lifehacker.com
+twocents.lifehacker.com##.branded-item--lifehacker.branded-item.js_inset.inset--story
+twocents.lifehacker.com##.iPPBWN.recent-video__Container-sc-16lj1xi-0
+
+! 8/28/2019 https://www.engadget.com
+www.engadget.com###right-ads-rail
+
+! 9/26/2019 https://player.radio.com
+player.radio.com###preroll_preload
