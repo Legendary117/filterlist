@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 30 Oct 2019
+! Last modified: 22 Nov 2019
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -250,6 +250,7 @@ www.inoreader.com##DIV[class="inno_dialog inno_shadow_big open_sans inno_dialog_
 www.inoreader.com##div.ad_title_centered.ad_title
 www.inoreader.com###reader_pane > .ad_title_centered.ad_title
 www.inoreader.com###leaderboard_ad-5cf7350e968f2
+www.inoreader.com###consent_bf2019
 
 ! 7/9/2019 https://lifehacker.com
 lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
@@ -307,3 +308,14 @@ www.engadget.com###right-ads-rail
 
 ! 9/26/2019 https://player.radio.com
 player.radio.com###preroll_preload
+
+! TheVerge.com
+www.theverge.com###newsletter-signup-short-form
+
+! Wired.com
+www.wired.com##.ad-stickyhero
+www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth-of-type(1) > .grid-layout__aside.grid--item
+www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth-of-type(3) > .grid-layout__aside.grid--item
+www.wired.com##.consumer-marketing-unit--cm-footer.consumer-marketing-unit
+www.wired.com##.paywall-modal--show.paywall-modal
+www.wired.com##.consumer-marketing-unit--nav-rollover.consumer-marketing-unit
