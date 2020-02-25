@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 30 Jan 2020
+! Last modified: 24 Feb 2020
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -286,6 +286,7 @@ www.engadget.com###right-ads-rail
 
 ! https://www.wired.com
 www.wired.com##.persistent-bottom
+www.wired.com##.cm-in-content__wrapper
 
 ! 10/26/2019 https://outlook.live.com
 outlook.live.com##._1TpU2KF6f_EeQiytBaYj8I > ._3_hHr3kfEhbNYRFM5YJxH9
