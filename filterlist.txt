@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 24 Feb 2020
+! Last modified: 19 Mar 2020
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -249,13 +249,24 @@ www.inoreader.com##DIV[class="inno_dialog_modal_overlay"]
 www.inoreader.com##DIV[class="inno_dialog inno_shadow_big open_sans inno_dialog_modal"]
 www.inoreader.com##div.ad_title_centered.ad_title
 www.inoreader.com###reader_pane > .ad_title_centered.ad_title
-www.inoreader.com###leaderboard_ad-5cf7350e968f2
-www.inoreader.com###consent_bf2019
-! Inoreader - Jan 2020 update
 inoreader.com##+js(nostif, raid)
+www.inoreader.com###consent_bf2019
+! March 2020
+inoreader.com##.inno_dialog_content_scrollable
+inoreader.com##.inno_dialog_scroll_overlay
+inoreader.com##.inno_dialog_modal_overlay
+inoreader.com##[id^="scroll_overlay"]
+inoreader.com##[id*="scroll_overlay"]
+www.inoreader.com###tree_announce
 
-! 7/9/2019 https://lifehacker.com
+! LifeHacker.com
 lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
+lifehacker.com##.js-evernote-checked.kDjDdf.bxm4mm-8
+lifehacker.com##.js-evernote-checked.fPASGg.bxm4mm-9
+
+! twocents.lifehacker.com
+twocents.lifehacker.com##.branded-item--lifehacker.branded-item.js_inset.inset--story
+twocents.lifehacker.com##.iPPBWN.recent-video__Container-sc-16lj1xi-0
 
 ! 7/9/2019 https://jalopnik.com
 jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
@@ -273,6 +284,9 @@ www.theguardian.com##div.old-article-message-wrapper:nth-of-type(1) > .old-artic
 ! Allows cram.com to work.
 @@$domain=cram.com
 
+! Reddit
+www.reddit.com##.happening-now
+old.reddit.com##.happening-now
 ! Prevent Reddit from tracking mouse movements
 reddit.com##script:inject(addEventListener-defuser.js, mousemove)
 
@@ -283,10 +297,7 @@ players.brightcove.net
 
 ! https://www.engadget.com
 www.engadget.com###right-ads-rail
-
-! https://www.wired.com
-www.wired.com##.persistent-bottom
-www.wired.com##.cm-in-content__wrapper
+www.engadget.com###right-ads-rail
 
 ! 10/26/2019 https://outlook.live.com
 outlook.live.com##._1TpU2KF6f_EeQiytBaYj8I > ._3_hHr3kfEhbNYRFM5YJxH9
@@ -298,24 +309,18 @@ open.spotify.com##.a05bb0f3078253e640145067dca9cae3-scss
 open.spotify.com##._28f55dbe6c35681a96ab5d1b11d0b0e1-scss
 open.spotify.com##.btn-black.btn--no-margin.btn
 
-! Lifehacker leftover junk
-lifehacker.com##.js-evernote-checked.kDjDdf.bxm4mm-8
-lifehacker.com##.js-evernote-checked.fPASGg.bxm4mm-9
-
-! 9/12/2019 https://twocents.lifehacker.com
-twocents.lifehacker.com##.branded-item--lifehacker.branded-item.js_inset.inset--story
-twocents.lifehacker.com##.iPPBWN.recent-video__Container-sc-16lj1xi-0
-
-! 8/28/2019 https://www.engadget.com
-www.engadget.com###right-ads-rail
-
 ! 9/26/2019 https://player.radio.com
 player.radio.com###preroll_preload
 
 ! TheVerge.com
 www.theverge.com###newsletter-signup-short-form
 
+! GHacks.net
+www.ghacks.net##.mr--20.ml--20.show-sm-up > .ghacks-ad
+
 ! Wired.com
+www.wired.com##.persistent-bottom
+www.wired.com##.cm-in-content__wrapper
 www.wired.com##.ad-stickyhero
 www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth-of-type(1) > .grid-layout__aside.grid--item
 www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth-of-type(3) > .grid-layout__aside.grid--item
