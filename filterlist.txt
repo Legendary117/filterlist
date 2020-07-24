@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 19 Mar 2020
+! Last modified: 23 July 2020
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -263,6 +263,8 @@ www.inoreader.com###tree_announce
 lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
 lifehacker.com##.js-evernote-checked.kDjDdf.bxm4mm-8
 lifehacker.com##.js-evernote-checked.fPASGg.bxm4mm-9
+twocents.lifehacker.com###sidebar_wrapper
+twocents.lifehacker.com##.js_subscribe.hLOPcM.sc-1cfejv7-0
 
 ! twocents.lifehacker.com
 twocents.lifehacker.com##.branded-item--lifehacker.branded-item.js_inset.inset--story
@@ -276,6 +278,8 @@ gizmodo.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
 
 ! 6/29/2019 https://www.theguardian.com
 www.theguardian.com##div.old-article-message-wrapper:nth-of-type(1) > .old-article-message
+! 6/16/2020 https://www.theguardian.com
+www.theguardian.com##.css-qjyum8-bannerStyles
 
 * googletagservices.com * block
 * taboola.com * block
@@ -327,3 +331,19 @@ www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth
 www.wired.com##.consumer-marketing-unit--cm-footer.consumer-marketing-unit
 www.wired.com##.paywall-modal--show.paywall-modal
 www.wired.com##.consumer-marketing-unit--nav-rollover.consumer-marketing-unit
+
+! 6/12/2020 https://www.vox.com
+www.vox.com###privacy-consent-ui
+
+! 4/23/2020 https://www.evernote.com
+www.evernote.com###gwt-debug-commEngineContentContainer > div
+
+! YouTube Covid-19 information box under videos
+www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+
+! 6/27/2020 https://www.bing.com "Download the new Microsoft Edge Browser"
+www.bing.com###b_notificationContainer_bop
+
+! 7/18/2020 LifeHacker Subscribe sidebar
+twocents.lifehacker.com###sidebar_wrapper
+twocents.lifehacker.com##.js_subscribe.hLOPcM.sc-1cfejv7-0
