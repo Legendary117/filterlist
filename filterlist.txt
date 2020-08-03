@@ -263,12 +263,15 @@ www.inoreader.com###tree_announce
 lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
 lifehacker.com##.js-evernote-checked.kDjDdf.bxm4mm-8
 lifehacker.com##.js-evernote-checked.fPASGg.bxm4mm-9
-twocents.lifehacker.com###sidebar_wrapper
-twocents.lifehacker.com##.js_subscribe.hLOPcM.sc-1cfejv7-0
+lifehacker.com##div.js_movable_ad_slot.gamHXh.bxm4mm-11
+lifehacker.com##div.js_movable_ad_slot.iDaCdY.bxm4mm-14
+lifehacker.com###sidebar_wrapper
 
 ! twocents.lifehacker.com
 twocents.lifehacker.com##.branded-item--lifehacker.branded-item.js_inset.inset--story
 twocents.lifehacker.com##.iPPBWN.recent-video__Container-sc-16lj1xi-0
+twocents.lifehacker.com###sidebar_wrapper
+twocents.lifehacker.com##.js_subscribe.hLOPcM.sc-1cfejv7-0
 
 ! 7/9/2019 https://jalopnik.com
 jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
@@ -331,6 +334,8 @@ www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth
 www.wired.com##.consumer-marketing-unit--cm-footer.consumer-marketing-unit
 www.wired.com##.paywall-modal--show.paywall-modal
 www.wired.com##.consumer-marketing-unit--nav-rollover.consumer-marketing-unit
+www.wired.com##.journey-template--leaderboard.cm-hero-wrapper > div
+www.wired.com##.in-content
 
 ! 6/12/2020 https://www.vox.com
 www.vox.com###privacy-consent-ui
@@ -344,6 +349,8 @@ www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 ! 6/27/2020 https://www.bing.com "Download the new Microsoft Edge Browser"
 www.bing.com###b_notificationContainer_bop
 
-! 7/18/2020 LifeHacker Subscribe sidebar
-twocents.lifehacker.com###sidebar_wrapper
-twocents.lifehacker.com##.js_subscribe.hLOPcM.sc-1cfejv7-0
+! 3/25/2020 https://www.comptia.org
+www.comptia.org##.cookie-policy-container
+
+! 3/21/2020 http://www.nowinstock.net
+www.nowinstock.net##.cc-color-override--1254661338.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
