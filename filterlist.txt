@@ -266,6 +266,9 @@ lifehacker.com##.js-evernote-checked.fPASGg.bxm4mm-9
 lifehacker.com##div.js_movable_ad_slot.gamHXh.bxm4mm-11
 lifehacker.com##div.js_movable_ad_slot.iDaCdY.bxm4mm-14
 lifehacker.com###sidebar_wrapper
+! lifehacker.com email subscription crap
+lifehacker.com##.js_subscribe
+lifehacker.com##.js_modal_exit_intent
 
 ! twocents.lifehacker.com
 twocents.lifehacker.com##.branded-item--lifehacker.branded-item.js_inset.inset--story
