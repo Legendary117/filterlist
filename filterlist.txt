@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 29 Sept 2020
+! Last modified: 19 Feb 2021
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -269,6 +269,9 @@ lifehacker.com###sidebar_wrapper
 ! lifehacker.com email subscription crap
 lifehacker.com##.js_subscribe
 lifehacker.com##.js_modal_exit_intent
+! 2021-02-19 https://lifehacker.com
+lifehacker.com##.js_newsletter-form-inline
+lifehacker.com##div.js_movable_ad_slot
 
 ! twocents.lifehacker.com
 twocents.lifehacker.com##.branded-item--lifehacker.branded-item.js_inset.inset--story
@@ -281,6 +284,9 @@ jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynami
 
 ! 7/9/2019 https://gizmodo.com
 gizmodo.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
+! 2020-12-17 https://gizmodo.com
+gizmodo.com##.js_modal_exit_intent
+
 
 ! 6/29/2019 https://www.theguardian.com
 www.theguardian.com##div.old-article-message-wrapper:nth-of-type(1) > .old-article-message
@@ -346,6 +352,8 @@ www.vox.com###privacy-consent-ui
 
 ! 4/23/2020 https://www.evernote.com
 www.evernote.com###gwt-debug-commEngineContentContainer > div
+! 2020-12-12 https://www.evernote.com
+www.evernote.com##.ReactModalPortal
 
 ! YouTube Covid-19 information box under videos
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
@@ -358,3 +366,6 @@ www.comptia.org##.cookie-policy-container
 
 ! 3/21/2020 http://www.nowinstock.net
 www.nowinstock.net##.cc-color-override--1254661338.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
+
+! 2020-10-04 https://kinjadeals.theinventory.com
+kinjadeals.theinventory.com##.js_modal_exit_intent
