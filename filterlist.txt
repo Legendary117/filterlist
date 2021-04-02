@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 19 Feb 2021
+! Last modified: 2 April 2021
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -77,6 +77,10 @@ youtube.com##.ytd-mealbar-promo-renderer
 youtube.com,youtube-nocookie.com##.ytp-expand-pause-overlay .ytp-pause-overlay
 ! "Try a fast secure browser with updates built in."
 mail.google.com##.gb_Ic.gb_B
+
+! Make YouTube videos click-to-load
+||youtube.com^$3p,frame,redirect=click2load.html
+||youtube-nocookie.com^$3p,frame,redirect=click2load.html
 
 !------------------------------------------------ [ Email Overlays ] -------------------------------------------------
 howtogeek.com##.email-overlay
