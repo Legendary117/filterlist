@@ -91,6 +91,10 @@ encrypted.google.com##.gb_ga
 ||google.com^##.gb_B
 ||google.com^##.gb_Tf
 ##.gb_fa, .gb_g
+! "Try a fast secure browser with updates built in."
+mail.google.com##.gb_Ic.gb_B
+
+! YouTube
 ! "You're signed out of YouTube"
 youtube.com##iron-dropdown
 ! "Watch YouTube videos with Chrome"
@@ -100,9 +104,10 @@ youtube.com##ytd-mealbar-promo-renderer
 youtube.com##.ytd-mealbar-promo-renderer
 ! Remove the 'More Videos' bar when you pause youtube videos.
 youtube.com,youtube-nocookie.com##.ytp-expand-pause-overlay .ytp-pause-overlay
-! "Try a fast secure browser with updates built in."
-mail.google.com##.gb_Ic.gb_B
-
+! YouTube Covid-19 information box under videos
+www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+! 2021-04-05 https://www.youtube.com
+www.youtube.com##ytd-popup-container.ytd-app.style-scope
 ! Make YouTube videos click-to-load
 ||youtube.com^$3p,frame,redirect=click2load.html
 ||youtube-nocookie.com^$3p,frame,redirect=click2load.html
@@ -301,6 +306,8 @@ lifehacker.com##.js_modal_exit_intent
 ! 2021-02-19 https://lifehacker.com
 lifehacker.com##.js_newsletter-form-inline
 lifehacker.com##div.js_movable_ad_slot
+! 2021-04-12 https://lifehacker.com
+lifehacker.com##.js_related-stories-inset
 
 ! twocents.lifehacker.com
 twocents.lifehacker.com##.branded-item--lifehacker.branded-item.js_inset.inset--story
@@ -315,7 +322,6 @@ jalopnik.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynami
 gizmodo.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
 ! 2020-12-17 https://gizmodo.com
 gizmodo.com##.js_modal_exit_intent
-
 
 ! 6/29/2019 https://www.theguardian.com
 www.theguardian.com##div.old-article-message-wrapper:nth-of-type(1) > .old-article-message
@@ -379,13 +385,11 @@ www.wired.com##.in-content
 ! 6/12/2020 https://www.vox.com
 www.vox.com###privacy-consent-ui
 
+! Evernote
 ! 4/23/2020 https://www.evernote.com
 www.evernote.com###gwt-debug-commEngineContentContainer > div
 ! 2020-12-12 https://www.evernote.com
 www.evernote.com##.ReactModalPortal
-
-! YouTube Covid-19 information box under videos
-www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 
 ! 6/27/2020 https://www.bing.com "Download the new Microsoft Edge Browser"
 www.bing.com###b_notificationContainer_bop
