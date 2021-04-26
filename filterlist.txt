@@ -13,6 +13,13 @@
 facebook.com facebook.com * noop
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
+analytics.facebook.com * block
+* analytics.facebook.com * block
+
+! Pinterest
+* analytics.pinterest.com * block
+widgets.pinterest.com * block
+
 
 ! Block Twitter except on Twitter.com
 * twitter.com * block
