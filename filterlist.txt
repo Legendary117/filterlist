@@ -62,6 +62,10 @@ metrics.mzstatic.com
 analytics.pinterest.com
 widgets.pinterest.com
 
+! Samsung
+insights.samsung.com
+analytics-api.samsunghealthcn.com
+
 ! Yandex
 yandexadexchange.net
 extmaps-api.yandex.net
