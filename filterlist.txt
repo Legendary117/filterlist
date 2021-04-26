@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 2 April 2021
+! Last modified: 26 April 2021
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -13,13 +13,7 @@
 facebook.com facebook.com * noop
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
-analytics.facebook.com * block
-* analytics.facebook.com * block
-
-! Pinterest
-* analytics.pinterest.com * block
-widgets.pinterest.com * block
-
+analytics.facebook.com
 
 ! Block Twitter except on Twitter.com
 * twitter.com * block
@@ -58,6 +52,26 @@ live.com office365.com * noop
 * office.com * block
 office.com office.com * noop 
 live.com office.com * noop
+
+! Apple
+supportmetrics.apple.com
+metrics.icloud.com
+metrics.mzstatic.com
+
+! Pinterest
+analytics.pinterest.com
+widgets.pinterest.com
+
+! Yandex
+yandexadexchange.net
+extmaps-api.yandex.net
+adsdk.yandex.ru
+
+! Huawei
+logservice.hicloud.com
+logservice1.hicloud.com
+logbak.hicloud.com
+
 
 !----------------------------------------------- [ Google Annoyances ] -----------------------------------------------
 
