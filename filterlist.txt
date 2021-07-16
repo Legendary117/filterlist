@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 26 April 2021
+! Last modified: 16 July 2021
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -111,6 +111,9 @@ www.youtube.com##ytd-popup-container.ytd-app.style-scope
 ! Make YouTube videos click-to-load
 ||youtube.com^$3p,frame,redirect=click2load.html
 ||youtube-nocookie.com^$3p,frame,redirect=click2load.html
+! Get rid of recommendations/channel ads at the end of videos
+www.youtube.com##.ytp-ce-covering-overlay
+www.youtube.com##.ytp-ce-element-show
 
 !------------------------------------------------ [ Email Overlays ] -------------------------------------------------
 howtogeek.com##.email-overlay
@@ -381,6 +384,7 @@ www.wired.com##.consumer-marketing-unit--nav-rollover.consumer-marketing-unit
 www.wired.com##.journey-template--leaderboard.cm-hero-wrapper > div
 www.wired.com##.journey-template--footer.cm-footer > div
 www.wired.com##.in-content
+www.wired.com##.newsletter-subscribe-form
 
 ! 6/12/2020 https://www.vox.com
 www.vox.com###privacy-consent-ui
