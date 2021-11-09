@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 16 July 2021
+! Last modified: 8 Nov 2021
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -114,6 +114,7 @@ www.youtube.com##ytd-popup-container.ytd-app.style-scope
 ! Get rid of recommendations/channel ads at the end of videos
 www.youtube.com##.ytp-ce-covering-overlay
 www.youtube.com##.ytp-ce-element-show
+www.youtube.com###contentWrapper > .ytd-popup-container.style-scope
 
 !------------------------------------------------ [ Email Overlays ] -------------------------------------------------
 howtogeek.com##.email-overlay
@@ -295,6 +296,7 @@ inoreader.com##.inno_dialog_modal_overlay
 inoreader.com##[id^="scroll_overlay"]
 inoreader.com##[id*="scroll_overlay"]
 www.inoreader.com###tree_announce
+www.inoreader.com###sinner_container
 
 ! LifeHacker.com
 lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
@@ -385,6 +387,10 @@ www.wired.com##.journey-template--leaderboard.cm-hero-wrapper > div
 www.wired.com##.journey-template--footer.cm-footer > div
 www.wired.com##.in-content
 www.wired.com##.newsletter-subscribe-form
+www.wired.com##.paywall-modal-container
+www.wired.com##.modal-overlay
+www.wired.com##.newsletter-subscribe-form--aggressive.newsletter-subscribe-form--has-background-color.newsletter-subscribe-form
+www.wired.com##.newsletter-subscribe-form--slim.newsletter-subscribe-form
 
 ! 6/12/2020 https://www.vox.com
 www.vox.com###privacy-consent-ui
@@ -397,6 +403,7 @@ www.evernote.com##.ReactModalPortal
 
 ! 6/27/2020 https://www.bing.com "Download the new Microsoft Edge Browser"
 www.bing.com###b_notificationContainer_bop
+www.bing.com##.popup
 
 ! 3/25/2020 https://www.comptia.org
 www.comptia.org##.cookie-policy-container
@@ -406,3 +413,11 @@ www.nowinstock.net##.cc-color-override--1254661338.cc-bottom.cc-theme-classic.cc
 
 ! 2020-10-04 https://kinjadeals.theinventory.com
 kinjadeals.theinventory.com##.js_modal_exit_intent
+
+! 2021-10-14 https://www.hotcelebshome.com
+www.hotcelebshome.com##.code-block-4.code-block
+www.hotcelebshome.com##.code-block-3.code-block
+www.hotcelebshome.com###custom_html-4
+www.hotcelebshome.com###custom_html-3
+www.hotcelebshome.com##.code-block-1.code-block
+www.hotcelebshome.com##center
