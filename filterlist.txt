@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 8 Nov 2021
+! Last modified: 11 Nov 2021
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -355,9 +355,6 @@ players.brightcove.net
 www.engadget.com###right-ads-rail
 www.engadget.com###right-ads-rail
 
-! 10/26/2019 https://outlook.live.com
-outlook.live.com##._1TpU2KF6f_EeQiytBaYj8I > ._3_hHr3kfEhbNYRFM5YJxH9
-
 ! Spotify upgrade banner and junk
 ||open.scdn.co/static/images/fta/burst.jpg$image
 open.spotify.com##._662231c6da359a501ff85e9f34adfcda-scss
@@ -404,6 +401,9 @@ www.evernote.com##.ReactModalPortal
 ! 6/27/2020 https://www.bing.com "Download the new Microsoft Edge Browser"
 www.bing.com###b_notificationContainer_bop
 www.bing.com##.popup
+
+! Outlook
+outlook.live.com##div>div>div>span:has-text(It looks like you're using an ad blocker.)
 
 ! 3/25/2020 https://www.comptia.org
 www.comptia.org##.cookie-policy-container
