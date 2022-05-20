@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 11 Nov 2021
+! Last modified: 19 May 2022
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -372,22 +372,14 @@ www.theverge.com###newsletter-signup-short-form
 www.ghacks.net##.mr--20.ml--20.show-sm-up > .ghacks-ad
 
 ! Wired.com
-www.wired.com##.persistent-bottom
-www.wired.com##.cm-in-content__wrapper
-www.wired.com##.ad-stickyhero
-www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth-of-type(1) > .grid-layout__aside.grid--item
-www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth-of-type(3) > .grid-layout__aside.grid--item
-www.wired.com##.consumer-marketing-unit--cm-footer.consumer-marketing-unit
-www.wired.com##.paywall-modal--show.paywall-modal
-www.wired.com##.consumer-marketing-unit--nav-rollover.consumer-marketing-unit
-www.wired.com##.journey-template--leaderboard.cm-hero-wrapper > div
-www.wired.com##.journey-template--footer.cm-footer > div
-www.wired.com##.in-content
-www.wired.com##.newsletter-subscribe-form
-www.wired.com##.paywall-modal-container
-www.wired.com##.modal-overlay
-www.wired.com##.newsletter-subscribe-form--aggressive.newsletter-subscribe-form--has-background-color.newsletter-subscribe-form
-www.wired.com##.newsletter-subscribe-form--slim.newsletter-subscribe-form
+! 2022-05-20 https://www.wired.com
+www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded
+www.wired.com##.paywall-bar__expanded
+www.wired.com##.rolloverContainer
+www.wired.com##.social-icons--share
+
+! 2022-05-20 https://www.pcworld.com
+www.pcworld.com##.promo_wrap
 
 ! 6/12/2020 https://www.vox.com
 www.vox.com###privacy-consent-ui
