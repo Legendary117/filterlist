@@ -385,10 +385,8 @@ www.pcworld.com##.promo_wrap
 www.vox.com###privacy-consent-ui
 
 ! Evernote
-! 4/23/2020 https://www.evernote.com
-www.evernote.com###gwt-debug-commEngineContentContainer > div
-! 2020-12-12 https://www.evernote.com
-www.evernote.com##.ReactModalPortal
+! 2022-05-21 https://www.evernote.com
+www.evernote.com###qa-SIDEBAR_UPGRADE_BUTTON
 
 ! 6/27/2020 https://www.bing.com "Download the new Microsoft Edge Browser"
 www.bing.com###b_notificationContainer_bop
