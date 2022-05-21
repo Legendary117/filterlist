@@ -373,7 +373,9 @@ www.ghacks.net##.mr--20.ml--20.show-sm-up > .ghacks-ad
 
 ! Wired.com
 ! 2022-05-20 https://www.wired.com
+www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded.paywall-bar-failsafe
 www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded
+www.wired.com##.journey-template--paywall-bar
 www.wired.com##.paywall-bar__expanded
 www.wired.com##.rolloverContainer
 www.wired.com##.social-icons--share
