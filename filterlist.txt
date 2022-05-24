@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 20 May 2022
+! Last modified: 23 May 2022
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -379,6 +379,9 @@ www.wired.com##.journey-template--paywall-bar
 www.wired.com##.paywall-bar__expanded
 www.wired.com##.rolloverContainer
 www.wired.com##.social-icons--share
+www.wired.com##.grid-layout__aside.grid--item
+www.wired.com##.newsletter-subscribe-form
+www.wired.com##.journey-template--footer.cm-footer > div
 
 ! 2022-05-20 https://www.pcworld.com
 www.pcworld.com##.promo_wrap
