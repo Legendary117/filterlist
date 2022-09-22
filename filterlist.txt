@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 5 Aug 2022
+! Last modified: 21 Aug 2022
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -300,6 +300,7 @@ www.inoreader.com###sinner_container
 ! 2022-07-08 https://www.inoreader.com
 www.inoreader.com###kickstart_hint_dialog_wrapper
 www.inoreader.com###articles_bulk_hint_dialog_wrapper
+www.inoreader.com###sb_rp_upgrade
 
 ! LifeHacker.com
 lifehacker.com##div.movable-ad.ad-mobile-dynamic.js_ad-dynamic.js_ad-mobile-dynamic
