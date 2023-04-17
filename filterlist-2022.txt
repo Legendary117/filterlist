@@ -421,3 +421,37 @@ www.hotcelebshome.com###custom_html-4
 www.hotcelebshome.com###custom_html-3
 www.hotcelebshome.com##.code-block-1.code-block
 www.hotcelebshome.com##center
+
+
+
+
+
+!---------------------------------------------- [ Unadded RUles ] ----------------------------------------------
+
+! 2022-09-24 https://search.brave.com
+search.brave.com##.svelte-1y0o3lb.callout
+
+! 2022-11-17 https://www.inoreader.com
+www.inoreader.com##.top_notification.info_state
+
+! 2022-12-23 https://www.wired.com
+www.wired.com##.paywall-modal__overlay
+www.wired.com##.paywall-modal__container
+www.wired.com##.persistent-bottom.hxeHqE.PersistentBottomWrapper-bzryEL > .journey-unit__container
+
+! 2023-01-24 https://www.techrepublic.com
+www.techrepublic.com###newsletter-exit-modal
+
+! 2023-02-15 https://www.pcworld.com
+www.pcworld.com##.sponsorship-header
+
+! Reddit "what are you into"
+www.reddit.com##._1dJtiWITrnvIbQdXgYgdym.jEUbSHJJx8vISKpWirlfx
+! Reddit "What do you want to see more of?
+www.reddit.com##._3mV_F85IUlHJXj6vglN9dL
+! Reddit - Both the above?
+reddit.com##div[aria-modal="true"]
+reddit.com###SHORTCUT_FOCUSABLE_DIV > div:nth-of-type(4)
+
+! 2023-03-17 https://www.engadget.com
+www.engadget.com##.Bdc\(engadgetGutter\).Bxz\(bb\).H\(340px\)\!--sm.H\(215x\).Px\(30px\).Py\(24px\).Pstart\(24px\)--md.My\(30px\).P\(20px\)--sm.W\(100\%\)--sm.Pstart\(0\)--md
