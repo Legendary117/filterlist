@@ -33,6 +33,9 @@ facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 analytics.facebook.com
 
+! Google
+* googletagservices.com * block
+
 ! Huawei
 logservice.hicloud.com
 logservice1.hicloud.com
@@ -80,6 +83,12 @@ twimg.com twimg.com * noop
 yandexadexchange.net
 extmaps-api.yandex.net
 adsdk.yandex.ru
+
+! YouTube
+! Featured Crap
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+! "You're signed out of YouTube"
+www.youtube.com##ytd-popup-container.ytd-app.style-scope
 
 !----------------------------------------------- [ Tech News Sites ] -------------------------------------------------
 
