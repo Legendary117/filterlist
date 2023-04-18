@@ -98,6 +98,9 @@ www.ghacks.net###ghacks_ad_code-6
 ! Block CryptoMining
 ||coin-hive.com^
 
+! Inoreader
+www.inoreader.com###sb_rp_upgrade
+
 ! Nerdist.com
 nerdist.com##.nerdist-social-share
 
