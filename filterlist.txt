@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 17 April 2023
+! Last modified: 18 April 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -107,8 +107,18 @@ www.ghacks.net###ghacks_ad_code-6
 ! Block CryptoMining
 ||coin-hive.com^
 
+! Brave.com
+search.brave.com##.svelte-7j8x1w.callout
+
+! Evernote
+www.evernote.com##.DF9U8CsL1rAJFIA90Idb.t1xBIaGnPV83ohiwoIvp
+
 ! Inoreader
 www.inoreader.com###sb_rp_upgrade
+
+! Lifehacker
+! Newslatter Sign-up Popup
+lifehacker.com##.js_modal_exit_intent
 
 ! Nerdist.com
 nerdist.com##.nerdist-social-share
