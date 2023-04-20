@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 18 April 2023
+! Last modified: 19 April 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -92,11 +92,18 @@ www.youtube.com##ytd-popup-container.ytd-app.style-scope
 
 !----------------------------------------------- [ Tech News Sites ] -------------------------------------------------
 
+! BleepingComputer
+www.bleepingcomputer.com##div.s-ou-wrap:nth-of-type(1)
+
 ! Engadget
 www.engadget.com##.Bdc\(engadgetGutter\).Bxz\(bb\).H\(340px\)\!--sm.H\(215px\).Px\(30px\).Py\(24px\).Pstart\(24px\)--md.My\(30px\).P\(20px\)--sm.W\(100\%\)--sm.Pstart\(0\)--md
 
 ! ghacks.net
 www.ghacks.net###ghacks_ad_code-6
+
+! TechRepublic
+! Newsletter Signup
+www.techrepublic.com###newsletter-exit-modal
 
 !------------------------------------------------- [ Misc Filters ] --------------------------------------------------
 
@@ -115,6 +122,7 @@ www.evernote.com##.DF9U8CsL1rAJFIA90Idb.t1xBIaGnPV83ohiwoIvp
 
 ! Inoreader
 www.inoreader.com###sb_rp_upgrade
+www.inoreader.com###BNqqVslfHDka0AEO_modal_overlay
 
 ! Lifehacker
 ! Newslatter Sign-up Popup
