@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 26 April 2023
+! Last modified: 1 May 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -92,6 +92,9 @@ adsdk.yandex.ru
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 ! "You're signed out of YouTube"
 www.youtube.com##ytd-popup-container.ytd-app.style-scope
+www.youtube.com##tp-yt-iron-dropdown.ytd-popup-container.style-scope
+! Lower Left Popup Ad - YouTube TV
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
 
 !----------------------------------------------- [ Tech News Sites ] -------------------------------------------------
 
@@ -128,9 +131,11 @@ www.evernote.com##.ReactModalPortal
 www.inoreader.com###sb_rp_upgrade
 www.inoreader.com##.inno_dialog_scroll_overlay:has-text(Adb)
 www.inoreader.com##.inno_dialog_modal_overlay
-! www.inoreader.com###BNqqVslfHDka0AEO_modal_overlay
-! www.inoreader.com###WaHsWaUFIFelr3on_modal_overlay
-! www.inoreader.com###HTiXfYU8PQ0E8UFU_modal_overlay
+inoreader.com##.inno_dialog_content_scrollable
+inoreader.com##.inno_dialog_scroll_overlay
+inoreader.com##.inno_dialog_modal_overlay
+inoreader.com##[id^="scroll_overlay"]
+inoreader.com##[id*="scroll_overlay"]
 
 ! Lifehacker
 ! Newslatter Sign-up Popup
@@ -142,6 +147,7 @@ nerdist.com##.nerdist-social-share
 ! Reddit
 ! Prevent Reddit from tracking mouse movements
 reddit.com##script:inject(addEventListener-defuser.js, mousemove)
+old.reddit.com##.premium-banner-outer
 
 ! Spotify
 open.spotify.com##div.ReactModalPortal:nth-of-type(8)
