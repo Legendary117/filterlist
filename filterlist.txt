@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 1 May 2023
+! Last modified: 12 May 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -95,6 +95,11 @@ www.youtube.com##ytd-popup-container.ytd-app.style-scope
 www.youtube.com##tp-yt-iron-dropdown.ytd-popup-container.style-scope
 ! Lower Left Popup Ad - YouTube TV
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+! Block youtubes new "ad blockers are not allowed on YouTube" prompt (May 2023)
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 
 !----------------------------------------------- [ Tech News Sites ] -------------------------------------------------
 
