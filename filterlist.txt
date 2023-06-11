@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 12 May 2023
+! Last modified: 10 June 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -117,10 +117,6 @@ www.ghacks.net###ghacks_ad_code-6
 www.techrepublic.com###newsletter-exit-modal
 
 !------------------------------------------------- [ Misc Filters ] --------------------------------------------------
-
-! Block AddThis
-*.addthis.com/*
-*sharebar.addthiscdn.com*
 
 ! Block CryptoMining
 ||coin-hive.com^
