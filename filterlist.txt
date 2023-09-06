@@ -123,6 +123,7 @@ www.techrepublic.com###newsletter-exit-modal
 
 ! Brave.com
 search.brave.com##.svelte-7j8x1w.callout
+search.brave.com##.svelte-1i1zg0j.callout
 
 ! Evernote
 www.evernote.com##.DF9U8CsL1rAJFIA90Idb.t1xBIaGnPV83ohiwoIvp
