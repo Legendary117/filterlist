@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 5 Sep 2023
+! Last modified: 12 Sep 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -100,6 +100,7 @@ youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageV
 youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
 youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
 youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+www.youtube.com###offer-module > .ytd-watch-next-secondary-results-renderer.style-scope
 
 !----------------------------------------------- [ Tech News Sites ] -------------------------------------------------
 
