@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 12 Sep 2023
+! Last modified: 14 Sep 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -38,6 +38,7 @@ analytics.facebook.com
 ! Sign in to Google
 www.google.com##[src="https://ogs.google.com/widget/callout?prid=19027682&pgid=19027681&puid=1421396ff301105b&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=en"]
 images.google.com##[src="https://ogs.google.com/widget/callout?prid=19027682&pgid=19027681&puid=1421396ff301105b&cce=1&dc=1&origin=https%3A%2F%2Fimages.google.com&cn=callout&pid=1&spid=2&hl=en"]
+||ogs.google.com/widget/callout$subdocument
 
 ! Huawei
 logservice.hicloud.com
