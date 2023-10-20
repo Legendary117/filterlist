@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 13 Oct 2023
+! Last modified: 19 Oct 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -162,3 +162,4 @@ open.spotify.com##div.ReactModalPortal:nth-of-type(8)
 
 ! Wired
 www.wired.com##.persistent-bottom.bIieWF.PersistentBottomWrapper-eddooY
+www.wired.com##.newsletter-subscribe-form
