@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 19 Oct 2023
+! Last modified: 8 Nov 2023
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -116,6 +116,8 @@ www.ghacks.net###ghacks_ad_code-6
 ! TechRepublic
 ! Newsletter Signup
 www.techrepublic.com###newsletter-exit-modal
+www.techrepublic.com##div[class*="ta-campaign-widget"]
+www.techrepublic.com##.ta-campaign-widget--banner.ta-campaign-widget
 
 !------------------------------------------------- [ Misc Filters ] --------------------------------------------------
 
