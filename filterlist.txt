@@ -147,6 +147,7 @@ inoreader.com##[id^="scroll_overlay"]
 inoreader.com##[id*="scroll_overlay"]
 www.inoreader.com###deduplicator_hint_dialog_wrapper
 www.inoreader.com###sb_rp_gear > .notifications_badge
+www.inoreader.com##.top_notification.info_state
 
 ! Lifehacker
 ! Newslatter Sign-up Popup
