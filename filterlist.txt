@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 25 Dec 2023
+! Last modified: 03 Jan 2024
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -155,6 +155,9 @@ lifehacker.com##.js_modal_exit_intent
 
 ! Nerdist.com
 nerdist.com##.nerdist-social-share
+
+! Perplexity.ai
+www.perplexity.ai##.dark\:bg-backgroundDark.bg-background.dark\:ring-borderMainDark.ring-borderMain.dark\:divide-borderMainDark\/80.divide-borderMain\/60.dark\:border-borderMainDark\/80.border-borderMain\/60.w-\[300px\].md\:block.hidden.z-20.duration-300.ease-out.fade-in.animate-in.bottom-md.right-md.fixed.border.shadow-sm.rounded-lg.p-md
 
 ! Reddit
 ! Prevent Reddit from tracking mouse movements
