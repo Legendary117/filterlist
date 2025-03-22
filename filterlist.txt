@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 23 Oct 2024
+! Last modified: 21 Mar 2025
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -141,6 +141,11 @@ www.evernote.com##.ReactModalPortal
 www.imdb.com##.navbar__coachmark--fadeIn.navbar__coachmark
 
 ! Inoreader
+www.inoreader.com###sb_rp_upgrade
+
+! TechRepublic
+www.techrepublic.com##body > .wordp-target
+www.techrepublic.com##.wordp-skybox.wordp-target
 
 ! Lifehacker
 ! Newslatter Sign-up Popup
