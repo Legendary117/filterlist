@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 21 June 2025
+! Last modified: 30 July 2025
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -133,12 +133,12 @@ search.brave.com##.callout
 ! Clark.com Newsletter Overlay
 clark.com##.pum-active.click_open.auto_open.pum-click-to-close.popmake-overlay.pum-theme-clark-desktop.pum-theme-277152.pum-overlay.pum
 
-! Evernote
-www.evernote.com##.DF9U8CsL1rAJFIA90Idb.t1xBIaGnPV83ohiwoIvp
-www.evernote.com##.ReactModalPortal
+! Engadget
+www.engadget.com##.lg\:px-\[16px\].lg\:max-w-\[1014px\].lg\:mx-auto.md\:mx-6.mt-8.mx-4
 
 ! IMDB Sign In Pop-Up
 www.imdb.com##.navbar__coachmark--fadeIn.navbar__coachmark
+www.imdb.com##.navbar__user > div.navbar__coachmark
 
 ! Inoreader
 www.inoreader.com###deduplicator_hint_dialog_wrapper
@@ -169,6 +169,7 @@ www.perplexity.ai##.dark\:bg-backgroundDark.bg-background.dark\:ring-borderMainD
 ! Prevent Reddit from tracking mouse movements
 reddit.com##script:inject(addEventListener-defuser.js, mousemove)
 old.reddit.com##.premium-banner-outer
+www.reddit.com##.w-\[220px\].whitespace-nowrap
 
 ! ReferralCodes.com
 referralcodes.com##.show.join-me-popup.fade.modal
