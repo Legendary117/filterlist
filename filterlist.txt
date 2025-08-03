@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 30 July 2025
+! Last modified: 2 Aug 2025
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -163,6 +163,7 @@ lifehacker.com##.js_modal_exit_intent
 nerdist.com##.nerdist-social-share
 
 ! Perplexity.ai
+www.perplexity.ai##.md\:block.w-\[300px\].hidden.fixed.right-md.bottom-md
 www.perplexity.ai##.dark\:bg-backgroundDark.bg-background.dark\:ring-borderMainDark.ring-borderMain.dark\:divide-borderMainDark\/80.divide-borderMain\/60.dark\:border-borderMainDark\/80.border-borderMain\/60.w-\[300px\].md\:block.hidden.z-20.duration-300.ease-out.fade-in.animate-in.bottom-md.right-md.fixed.border.shadow-sm.rounded-lg.p-md
 
 ! Reddit
