@@ -108,6 +108,7 @@ www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 
 ! BleepingComputer
 www.bleepingcomputer.com##div.s-ou-wrap:nth-of-type(1)
+||www.bleepstatic.com/c*-400*.jpg$image
 
 ! Engadget
 www.engadget.com##.Bdc\(engadgetGutter\).Bxz\(bb\).H\(340px\)\!--sm.H\(215px\).Px\(30px\).Py\(24px\).Pstart\(24px\)--md.My\(30px\).P\(20px\)--sm.W\(100\%\)--sm.Pstart\(0\)--md
