@@ -159,13 +159,6 @@ www.inoreader.com##.not-confirmed-dot::after
 www.techrepublic.com##body > .wordp-target
 www.techrepublic.com##.wordp-skybox.wordp-target
 
-! Lifehacker
-! Newslatter Sign-up Popup
-lifehacker.com##.js_modal_exit_intent
-
-! Nerdist.com
-nerdist.com##.nerdist-social-share
-
 ! Perplexity.ai
 www.perplexity.ai##.md\:block.w-\[300px\].hidden.fixed.right-md.bottom-md
 www.perplexity.ai##.dark\:bg-backgroundDark.bg-background.dark\:ring-borderMainDark.ring-borderMain.dark\:divide-borderMainDark\/80.divide-borderMain\/60.dark\:border-borderMainDark\/80.border-borderMain\/60.w-\[300px\].md\:block.hidden.z-20.duration-300.ease-out.fade-in.animate-in.bottom-md.right-md.fixed.border.shadow-sm.rounded-lg.p-md
@@ -182,7 +175,3 @@ referralcodes.com##.show.fade.modal-backdrop
 
 ! Spotify
 open.spotify.com##div.ReactModalPortal:nth-of-type(8)
-
-! Wired
-www.wired.com##.persistent-bottom.bIieWF.PersistentBottomWrapper-eddooY
-www.wired.com##.newsletter-subscribe-form
