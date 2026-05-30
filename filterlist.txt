@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 11 Dec 2025
+! Last modified: 29 May 2026
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -109,22 +109,41 @@ www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 ! BleepingComputer
 www.bleepingcomputer.com##div.s-ou-wrap:nth-of-type(1)
 ||www.bleepstatic.com/c*-400*.jpg$image
+www.bleepingcomputer.com##.articleBody > div
 
 ! Engadget
 www.engadget.com##.Bdc\(engadgetGutter\).Bxz\(bb\).H\(340px\)\!--sm.H\(215px\).Px\(30px\).Py\(24px\).Pstart\(24px\)--md.My\(30px\).P\(20px\)--sm.W\(100\%\)--sm.Pstart\(0\)--md
+www.engadget.com##.lg\:px-\[16px\].lg\:max-w-\[1014px\].lg\:mx-auto.md\:mx-6.mt-8.mx-4
+www.engadget.com##.dark\:bg-inkwell.bg-white.mx-\[calc\(50\%-50vw\)\].z-\[7\].sticky.topic-subnavigation-non-sticky
 
 ! ghacks.net
 www.ghacks.net###ghacks_ad_code-6
 www.ghacks.net##div.post-subtitle-meta:nth-of-type(1)
+www.ghacks.net##.google-preferred-source-badge
+
+! Linux News
+www.omgubuntu.co.uk##.textwidget .omg-hero-button__link
+
+! Reclaim The Net
+reclaimthenet.org##.e-lazyloaded.e-parent.e-con.e-con-boxed.e-flex.elementor-element-eb333a5.elementor-element
+reclaimthenet.org##.elementor-popup-modal.dialog-type-lightbox.dialog-type-buttons.dialog-lightbox-widget.dialog-widget
 
 ! TechRepublic
-! Newsletter Signup
 www.techrepublic.com###newsletter-exit-modal
 www.techrepublic.com##div[class*="ta-campaign-widget"]
 www.techrepublic.com##.ta-campaign-widget--banner.ta-campaign-widget
 www.techrepublic.com###primary > div.layout-whole.layout > div
 www.techrepublic.com##.desktop-only.go-premium-btn
 www.techrepublic.com###ta-campaign-widget-693b21786d85f-popup-wrapper
+www.techrepublic.com##.bg-black\/50.justify-center.items-center.flex.z-10000.inset-0.fixed
+www.techrepublic.com##.py-2.min-h-\[260px\].items-center.justify-center.flex
+www.techrepublic.com##.pt-2.gap-4.items-center.flex
+www.techrepublic.com##body > .wordp-target
+www.techrepublic.com##.wordp-skybox.wordp-target
+www.techrepublic.com##.tablepress-id-5468.tablepress
+
+! TecMint
+www.tecmint.com##.active.pt-popup-overlay
 
 !------------------------------------------------- [ Misc Filters ] --------------------------------------------------
 
@@ -134,11 +153,11 @@ www.techrepublic.com###ta-campaign-widget-693b21786d85f-popup-wrapper
 ! Brave.com
 search.brave.com##.callout
 
+! ChatGPT
+chatgpt.com##.z-20.bottom-full.end-0.start-0.absolute
+
 ! Clark.com Newsletter Overlay
 clark.com##.pum-active.click_open.auto_open.pum-click-to-close.popmake-overlay.pum-theme-clark-desktop.pum-theme-277152.pum-overlay.pum
-
-! Engadget
-www.engadget.com##.lg\:px-\[16px\].lg\:max-w-\[1014px\].lg\:mx-auto.md\:mx-6.mt-8.mx-4
 
 ! IMDB Sign In Pop-Up
 www.imdb.com##.navbar__coachmark--fadeIn.navbar__coachmark
@@ -154,20 +173,25 @@ www.inoreader.com###promo_dialog_scroll_overlay
 www.inoreader.com###promo_dialog_modal_overlay
 www.inoreader.com##.top_notification.info_state
 www.inoreader.com##.not-confirmed-dot::after
+www.inoreader.com##.top-notifications
 
-! TechRepublic
-www.techrepublic.com##body > .wordp-target
-www.techrepublic.com##.wordp-skybox.wordp-target
+! News
+www.nytimes.com##.css-1kml3kd.expanded.STORY_UNLOCKED_ARTICLE_249
 
 ! Perplexity.ai
 www.perplexity.ai##.md\:block.w-\[300px\].hidden.fixed.right-md.bottom-md
 www.perplexity.ai##.dark\:bg-backgroundDark.bg-background.dark\:ring-borderMainDark.ring-borderMain.dark\:divide-borderMainDark\/80.divide-borderMain\/60.dark\:border-borderMainDark\/80.border-borderMain\/60.w-\[300px\].md\:block.hidden.z-20.duration-300.ease-out.fade-in.animate-in.bottom-md.right-md.fixed.border.shadow-sm.rounded-lg.p-md
+perplexity.ai##+js(set-session-storage-item, signUpBannerDismissed, true)
+perplexity.ai##+js(aeld, wheel)
+perplexity.ai##div[role="dialog"][aria-modal="true"]:has(a[target="_blank"][href="https://www.perplexity.com/hub/legal/privacy-policy"]):remove()
 
 ! Reddit
 ! Prevent Reddit from tracking mouse movements
 reddit.com##script:inject(addEventListener-defuser.js, mousemove)
 old.reddit.com##.premium-banner-outer
 www.reddit.com##.w-\[220px\].whitespace-nowrap
+! Block the "unblockable" Reddit tracker - https://old.reddit.com/r/uBlockOrigin/comments/1q4gemb/any_way_to_block_the_unblockable_reddit_tracker/
+reddit.com##+js(json-edit-fetch-request, ..info, propsToMatch, /svc/shreddit/events)
 
 ! ReferralCodes.com
 referralcodes.com##.show.join-me-popup.fade.modal
@@ -175,3 +199,4 @@ referralcodes.com##.show.fade.modal-backdrop
 
 ! Spotify
 open.spotify.com##div.ReactModalPortal:nth-of-type(8)
+
