@@ -141,6 +141,9 @@ www.techrepublic.com##.pt-2.gap-4.items-center.flex
 www.techrepublic.com##body > .wordp-target
 www.techrepublic.com##.wordp-skybox.wordp-target
 www.techrepublic.com##.tablepress-id-5468.tablepress
+www.techrepublic.com##.print\:hidden.has-\[div\[data-empty\]\]\:hidden.z-1000.ease-in-out.duration-500.transition-transform.border-t.border-gray-200.items-center.justify-center.flex.bg-white.bottom-0.w-full.fixed.hide-on-empty.group
+www.techrepublic.com##.content-sidebar.flex-col.flex.gap-10.lg\:max-w-\[300px\].lg\:min-w-\[300px\]
+www.techrepublic.com##.duration-150.transition-colors.hover\:bg-\[\#b83812\].whitespace-nowrap.no-underline.rounded-full.font-bold\!.text-\[16px\].text-white.bg-\[\#d44216\].py-2.px-5.items-center.md\:inline-flex.hidden
 
 ! TecMint
 www.tecmint.com##.active.pt-popup-overlay
