@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Lengendary117's List
 ! Expires: 1 days
-! Last modified: 29 May 2026
+! Last modified: 28 June 2026
 ! Homepage: https://github.com/Legendary117/
 ! Description: Custom Adblocking/Tracking/Annoyances Filter List.
 !---------------------------------------------------------------------------------------------------------------------
@@ -115,6 +115,8 @@ www.bleepingcomputer.com##.articleBody > div
 www.engadget.com##.Bdc\(engadgetGutter\).Bxz\(bb\).H\(340px\)\!--sm.H\(215px\).Px\(30px\).Py\(24px\).Pstart\(24px\)--md.My\(30px\).P\(20px\)--sm.W\(100\%\)--sm.Pstart\(0\)--md
 www.engadget.com##.lg\:px-\[16px\].lg\:max-w-\[1014px\].lg\:mx-auto.md\:mx-6.mt-8.mx-4
 www.engadget.com##.dark\:bg-inkwell.bg-white.mx-\[calc\(50\%-50vw\)\].z-\[7\].sticky.topic-subnavigation-non-sticky
+! Block "Read More:" and a link from being added while Copying & Pasting text.
+engadget.com##+js(aeld, copy)
 
 ! ghacks.net
 www.ghacks.net###ghacks_ad_code-6
